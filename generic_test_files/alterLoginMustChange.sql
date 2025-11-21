@@ -1,0 +1,1 @@
+ALTER LOGIN [tempChange] WITH PASSWORD = 'Aasimkhan30@a' MUST_CHANGE;
