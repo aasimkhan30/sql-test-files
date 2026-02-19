@@ -1,0 +1,1 @@
+select * from sys.ALL_OBJECTS
