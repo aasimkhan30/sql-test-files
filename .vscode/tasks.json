@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "sqlproj: Build TestProject",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"/Users/aasim/src/sql-test-files/TestProject/TestProject.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the TestProject SQL project"
+		}
+	]
+}
